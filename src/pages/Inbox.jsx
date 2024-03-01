@@ -35,9 +35,7 @@ export default function Inbox() {
                   <div className="text-2xl mt-1 flex items-center">
                     <span className="text-gray-700 mr-3">Anderson Vanhron</span>
                   </div>
-                  <span className="text-lg text-gray-600">
-                    Junior Developer
-                  </span>
+                  <span className="text-lg text-gray-600">Patient</span>
                 </div>
               </div>
               <div class="flex items-center space-x-2">
@@ -399,7 +397,6 @@ export default function Inbox() {
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </>
