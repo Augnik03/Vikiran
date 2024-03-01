@@ -5,7 +5,7 @@ import DocHome from "./pages/DocHome";
 import DocFeed from "./pages/DocFeed";
 import DocPatient from "./pages/DocPatient";
 import Diagnosis from "./pages/Diagnosis";
-import Startpage from './components/Startpage'
+import LandingPage from './pages/LandingPage'
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
     <>
       <Router>
         <Routes>
+          <Route path="/" element={<LandingPage/>} />
           <Route path="/doclogin" element={<DocLogin />} />
           <Route path="/dochome" element={<DocHome />} />
           <Route path="/docfeed" element={<DocFeed />} />

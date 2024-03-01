@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Startpage() {
+export default function LandingPage() {
     return (
         <>
             <div className='flex flex-row justify-center space-x-10'>
