@@ -8,6 +8,7 @@ import Diagnosis from "./pages/Diagnosis";
 import LandingPage from './pages/LandingPage'
 import Calendar from "./pages/Calendar";
 import Inbox from "./pages/Inbox";
+import DocProfile from "./pages/DocProfile";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/diagnosis" element={<Diagnosis />} />
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/inbox" element={<Inbox />} />
+          <Route path="/docprofile" element={<DocProfile />} />
         </Routes>
       </Router>
     </>
