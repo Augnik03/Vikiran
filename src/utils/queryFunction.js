@@ -28,21 +28,21 @@ async function query(file) {
 
 // Example usage:
 // Assume you have a file input element with id="fileInput"
-document
-  .getElementById("fileInput")
-  .addEventListener("change", async (event) => {
-    const file = event.target.files[0];
-    if (!file) {
-      console.error("No file selected.");
-      return;
-    }
+// document
+//   .getElementById("fileInput")
+//   .addEventListener("change", async (event) => {
+//     const file = event.target.files[0];
+//     if (!file) {
+//       console.error("No file selected.");
+//       return;
+//     }
 
-    try {
-      const response = await query(file);
-      console.log(JSON.stringify(response));
-    } catch (error) {
-      console.error("Error performing query:", error);
-    }
-  });
+//     try {
+//       const response = await query(file);
+//       console.log(JSON.stringify(response));
+//     } catch (error) {
+//       console.error("Error performing query:", error);
+//     }
+//   });
 
 export default query;
