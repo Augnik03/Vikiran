@@ -91,10 +91,11 @@ Before you proceed with the setup, ensure that you have the following prerequisi
 2. Navigate to the directory where you want to clone the Mitr repository.
 3. Run the following command to clone the repository:
 
-   bash
+   ```bash
    git clone https://github.com/Augnik03/Vikiran.git
-  - cd Vikiran 
-  - npm run dev 
+   cd Vikiran
+   npm run dev
+   ```
 
 ### Install the required dependencies:
 
