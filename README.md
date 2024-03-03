@@ -93,8 +93,8 @@ Before you proceed with the setup, ensure that you have the following prerequisi
 
    bash
    git clone https://github.com/Augnik03/Vikiran.git
-   cd Vikiran 
-   npm run dev 
+  - cd Vikiran 
+  - npm run dev 
 
 ### Install the required dependencies:
 
