@@ -98,4 +98,4 @@ Before you proceed with the setup, ensure that you have the following prerequisi
 
 ### Install the required dependencies:
 
-npm i
+```npm i```
